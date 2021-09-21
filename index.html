@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <!-- title -->
+        <div class="title">
+          <h2>our reviews</h2>
+          <div class="underline"></div>
+        </div>
+        <!-- review -->
+        <article class="review">
+          <div class="img-container">
+            <img src="https://live.staticflickr.com/1924/44004535825_56fcda6b45_b.jpg" id="person-img" alt="" />
+          </div>
+          <h4 id="name">Bar-tailed godwit</h4>
+          <p id="text">
+            The bar-tailed godwit is a long-billed, long-legged wading bird 
+            which visits UK shores for the winter. 
+            Most usually seen in its grey-brown winter plumage, 
+            birds in spring may show their full rich chestnut breeding plumage.
+          </p>
+          <!-- prev next buttons-->
+          <div class="button-container">
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <!-- random button -->
+          <button class="random-btn">surprise me</button>
+          <div class="inputField">
+            <form class="fContainer" action="">
+              <label for="fname"></label>
+              <input type="text" placeholder="Write a Review...">
+            </form>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
